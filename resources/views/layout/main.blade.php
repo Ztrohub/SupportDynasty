@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>@yield('title')SupportDynasty</title>
+    <title>@yield('title')ComfortDynasty</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
     <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
     <link rel="stylesheet" href="{{ asset('src/CSS/sidebar.css') }}">
@@ -24,7 +24,7 @@
             <div class="d-flex flex-column flex-shrink-0 p-3 text-bg-dark" style="width: 280px;">
                 <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-white text-decoration-none" style="gap: 1vw">
                 <img src="{{ asset('favicon.ico')}}" alt="" srcset="" height="50vh" style="bi pe-none me-2">
-                <span class="fs-5">SupportDynasty</span>
+                <span class="fs-5">ComfortDynasty</span>
                 </a>
                 <hr>
                 <ul class="nav nav-pills flex-column mb-auto" style="gap: 2vh">
@@ -65,7 +65,7 @@
 
         {{-- SIDEBAR MOBILE --}}
     <div class="sidebar">
-        <a href="/"><span class="fs-5">SD</span></a>
+        <a href="/"><span class="fs-5">CD</span></a>
         <a href="#home" class="active">Community</a>
         <a href="#news">About</a>
         <a href="#contact">Update</a>
